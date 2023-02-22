@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+section {
+  background-color: #7813d7;
+  height: 100vh;
+  display: flex;
+  color: azure;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 150px 300px;
+  position: relative;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 17px;
+  box-shadow: 3px 2px rgba(23, 24, 24, 0.671);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: xx-large;
+}
+
+.name {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 5%;
+  cursor: pointer;
+}
+
+main {
+  height: 100vh;
+  background-color: #b774f652;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
