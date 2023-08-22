@@ -4,7 +4,7 @@ function change() {
    </section>`;
   setTimeout(() => {
     document.body.innerHTML = newBody;
-  }, 600);
+  }, 1000);
 }
 function animation() {
   const button = document.querySelector(".button");

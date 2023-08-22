@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Page 1 -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,6 +13,13 @@
       rel="stylesheet"
     />
     <script src="index.js"></script>
+    <style>
+      /* Additional CSS for styling */
+      audio {
+        width: 100%;
+        max-width: 300px;
+      }
+    </style>
     <title>Nada Dhaheer</title>
   </head>
   <body>
@@ -25,32 +31,8 @@
         <a href="#main"> <img class="arrow" src="images/arrow.png" /></a>
       </div>
     </section>
-    <!-- Page 2 -->
+
     <main id="main">
-      <h2>
-        <span style="font-size: 22px">&#10024;</span>About
-        <span style="font-size: 22px">&#10024;</span>
-      </h2>
-      <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
-        <p>
-          I'm a 20 year old Yemeni studying Artificial Intelligence in Egypt.
-          Fuelled by a passion for coding and learning more about my major.
-          <p
-            >I have a deep desire to excel and continuously improve in my work.
-            Learn more about my journey below!</p
-          >
-        </p>
-      </div>
-
-      <h2>
-        <span style="font-size: 22px">&#10024;</span> Extracurricular/Volunteer
-        work<span style="font-size: 22px">&#10024;</span>
-      </h2>
-      <p>British Council</p>
-      <p>Bibliotheca of Alexandrina</p>
-      <p>Resala organization</p>
-      <p>Robotics competitions organizer and scoring</p>
-
       <h2>
         <span style="font-size: 22px">&#10024;</span> Hobbies and interests<span
           style="font-size: 22px"
@@ -58,8 +40,11 @@
         >
       </h2>
       <p>Playing the guitar, ukulele and piano</p>
-      <p>Drawing</p>
-      <p>Reading</p>
+
+      <audio controls>
+        <source src="Nada_Riptide_song.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
 
       <h2>
         <span style="font-size: 22px">&#10024;</span> Education<span
@@ -96,7 +81,10 @@
           </td>
           <td>Free</td>
           <td>Free</td>
-          <td>Neural Networks<br> Operations Research(s)</td>
+          <td>
+            Neural Networks<br />
+            Operations Research(s)
+          </td>
           <td>Web Programming</td>
           <td>Free</td>
         </tr>
@@ -117,12 +105,17 @@
         Contact me!<span style="font-size: 22px">&#10024;</span>
       </h2>
       <a href="email.html" target="_blank" title="Email me!"> Email </a>
-      <br>
+      <br />
 
-     <!--Button-->
-      <button class="button" id="button1" onmouseover=animation() onclick=change()>Click Me</button>
-      
-      
+      <!--Button-->
+      <button
+        class="button"
+        id="button1"
+        onmouseover="animation()"
+        onclick="change()"
+      >
+        Click Me
+      </button>
     </main>
   </body>
 </html>
